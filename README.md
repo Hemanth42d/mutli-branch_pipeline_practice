@@ -27,8 +27,8 @@ After giving the repo link you need to select the branches you need to build the
 
 Select the fliter name by regular expression in the dropdown option which means based on the expression you provide that branches will be dynamically added for the pipelines
 Example: 
-1) feature/  --> means adds all branches that starts with features expression
-2) bug-fix/  --> means adds all branches that starts with bug-fix expression
+1) feature/  --> means adds all branches that starts with features expression.
+2) bug-fix/  --> means adds all branches that starts with bug-fix expression.
 3) .* --> for all branches.
 
 And the last thing is under Build Configuration select the option **Mode by Jenkinsfile** and under script path select **Jenkisfile**(It is dynamic variable you can name it what ever you want but best practice is to name it Jenkinsfile defualt convention)
